@@ -5,7 +5,7 @@ const Layout = () => {
   return(
     <header id="header">
      <div className='logo'>
-      <img src='./images/zyox white.png' alt='logo'/>
+      <a href="mailto:erol@zyox.de"><img src='./images/zyox white.png' alt='logo'/></a>
      </div>
       <h1>Ihr seid ein großartiger Arbeitgeber.</h1>
       <h1>Wissen das draußen alle schon?</h1>
