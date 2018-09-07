@@ -1,25 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class Layout extends Component {
-  render() {
-    return (
-      <header className="header text-center text-white d-flex">
-       <div className="container my-auto">
-        <div className="row">
-        <div className="col-lg-10 mx-auto mb-5">
-        <h1>
-        <strong>We design thoughtful, livable spaces.</strong>
-         </h1>
-        </div>
-        <div className="col-lg-8 mx-auto">
-         <a className="btn btn-primary btn-xl js-scroll-trigger mt-5" href="mailto:youremailaddress">Contact</a>
-        </div>
-       </div>
-      </div>
-     </header>
-    );
-  }
+const Layout = () => {
+  return(
+    <header id="header">
+     <div className='logo'>
+      <img src='./images/zyox white.png' alt='logo'/>
+     </div>
+      <h1>Ihr seid ein großartiger Arbeitgeber.</h1>
+      <h1>Wissen das draußen alle schon?</h1>
+      <h1>Jetzt ein Premium-Firmenportrait erstellen!</h1>
+    <a className="button" href="mailto:erol@zyox.de">E-MAIL SENDEN</a>
+  </header>
+  )
 }
-
 export default Layout;
